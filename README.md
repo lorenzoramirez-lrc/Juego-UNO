@@ -18,7 +18,7 @@ sea web o local y compile el código. El juego se desarrolla en la terminal.
 **Reglas:** Se siguen las reglas originales de UNO, en la variación de puntaje en la cual al finalizar cada ronda se le suman los puntos de sus cartas restantes a cada jugador. Al finalizar de jugar el jugador con menor puntaje es el ganador definitivo. 
 Se sigue la siguiente tabla para los puntajes:
 <div align="center">
-Todas las cartas con número (0-9) ..............................Valor del número
+Todas las cartas con número (0-9) ..................Valor del número
 
 Roba dos......................................................................20 puntos 
 
