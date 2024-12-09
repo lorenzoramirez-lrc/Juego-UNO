@@ -1,37 +1,35 @@
-Juego UNO
+UNO Game
 ===============
-**Autores:** Lorenzo Ramírez Calderón, Danna Valentina Cano, Juan Pablo Vanegas, Laura Lesmes Ocampo
+**Authors:** Lorenzo Ramírez Calderón, Danna Valentina Cano, Juan Pablo Vanegas, Laura Lesmes Ocampo
 
-## Descripcion General
-Juego tradicional de UNO programado en el lenguaje de programacion C++.
-## Manual del Usuario
+## General Description
+Traditional UNO game programmed in the C++ programming language.
+## User's Manual
 
-**Compilación y Ejecución:** Ingrese el archivo en un entorno de desarrollo integrado de C + + ya
-sea web o local y compile el código. El juego se desarrolla en la terminal.
-
-
-**Controles:** Todos los controles son a teclado, todas las entradas de texto están diseñadas para ingresar números enteros con excepción de escoger el color e ingresar los nombres de los jugadores.
+**Compilation and Execution:** Insert the file in an integrated C++ development environment either web or local and compile the code. The game is developed in the terminal.
 
 
-**Precaución:** Ingresar una entrada que no sea un número entero sin contar las excepciones llevará a la corrupción del programa y tendrá que volver a ser iniciado.
+**Controls:** All controls are keyboard controls, all text entries are designed to enter whole numbers except for choosing the color and entering player names.
 
-**Reglas:** Se siguen las reglas originales de UNO, en la variación de puntaje en la cual al finalizar cada ronda se le suman los puntos de sus cartas restantes a cada jugador. Al finalizar de jugar el jugador con menor puntaje es el ganador definitivo. 
-Se sigue la siguiente tabla para los puntajes:
+
+**Caution:** Entering an entry that is not an integer without counting exceptions will lead to program corruption and will have to be restarted.
+
+**Rules:** The original rules of UNO are followed, in the variation of scoring in which at the end of each round the points of the remaining cards are added up for each player. At the end of the game the player with the lowest score is the definitive winner. 
+The following table is followed for the scores:
 <div align="center">
-Todas las cartas con número (0-9) ..................Valor del número
+All cards with number (0-9) ................................Number value
 
-Roba dos......................................................................20 puntos 
+Draw two......................................................................20 points 
 
-Reversa........................................................................20 puntos
+Reverse........................................................................20 points
 
-Salta.............................................................................20 puntos 
+Skip................................................................................20 point 
 
-Comodín ......................................................................50 puntos 
+Wild Card ....................................................................50 points 
 
-Comodín Roba cuatro ..................................................50 puntos
+Wild Draw Four Card ..................................................50 points 
 </div>
  
-**Código de cartas:** Las cartas siguen una estructura de dos caracteres, el primero indicando el número (0 a 9) y el segundo el color Azul (A), Dorado(D), Rojo(R), Verde(V), esta estructura se mantiene a excepción de las cartas de acción que siguen la siguiente estructura primer carácter (B) bloquear, (S) robar 2, (R) reversa, segundo carácter color respectivo, y para los comodines +4 (4S) y cambio de color (CC).
-Ejemplo: 0A(Cero azul), RV (Reversa verde), 8R (Ocho rojo), SD(Robar 2 dorado)
-
+**Card codes:** The cards follow a two character structure, the first one indicating the number (0 to 9) and the second one the color Blue (A), Gold(D), Red(R), Green(V), this structure is maintained except for the action cards that follow the following structure first character (B) skip, (S) draw 2, (R) reverse, second character respective color, and for the Wild cards draw four (4S) and color change (CC).
+Example: 0A(Blue zero), RV (Reverse green), 8R (Red eight), SD(Draw 2 gold)
 
